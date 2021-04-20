@@ -1,0 +1,269 @@
+:root {
+  /* colors  */
+  --bg: #232323;
+  --accent: #ffa500;
+
+  /* fonts  */
+  --fontsaccent: "Fira Sans Extra Condensed", sans-serif;
+}
+
+body {
+  position: relative;
+  background-color: var(--bg);
+}
+
+/* HEADER  */
+header {
+  background-color: #232323;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  height: 9rem;
+}
+header div .logo a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 28px;
+  margin-left: 4rem;
+}
+header div div ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  list-style: none;
+}
+header div div ul li {
+  font-size: 0.5rem;
+  color: var(--accent);
+  margin-left: 3rem;
+}
+header div div ul li span a {
+  color: var(--accent);
+}
+header div div ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+}
+
+/* HERO  */
+
+.hero .row .col-12 {
+  width: 50vw;
+  height: 100vh;
+  background-image: url(../images/hero_2.jpg);
+  background-position: top;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.hero .row .col-12 .heroTop {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  color: white;
+}
+.hero .row .col-12 .heroTop h1 {
+  margin: 10rem auto 0 auto;
+  font-size: 8rem;
+  font-weight: 400;
+  text-align: center;
+  font-family: var(--fontsaccent);
+  line-height: 0.8;
+}
+.hero .row .col-12 .heroTop p {
+  margin: 1rem auto;
+  font-size: 24px;
+  text-align: center;
+}
+.hero .row .col-12 div {
+  margin: 0 auto;
+}
+.hero .row .col-12 .heroTop div button {
+  margin-top: 4rem;
+  font-size: 24px;
+  border: 2px solid white;
+  padding: 1rem 2rem;
+}
+
+/* SERVICES  */
+
+.service_title {
+  text-align: center;
+}
+.service_title h3 {
+  font-family: var(--fontsaccent);
+  font-size: 4rem;
+  font-weight: 400;
+  color: var(--accent);
+  margin-top: 8rem;
+  margin-bottom: 0.5rem;
+}
+.service_title p {
+  color: gray;
+  font-size: 24px;
+  margin-bottom: 5rem;
+  width: 50%;
+  margin: auto;
+}
+.col-4 {
+  position: relative;
+  width: 150px;
+  padding: 4rem;
+}
+.col-4 img {
+  width: 64px;
+  z-index: 10;
+  margin-bottom: 1rem;
+}
+.spot::after {
+  content: "";
+  background: #474747;
+  height: 64px;
+  width: 64px;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+  top: 15%;
+}
+.col-4 h4 {
+  color: white;
+  font-size: 32px;
+}
+
+.col-4 p {
+  color: gray;
+  font-size: 24px;
+}
+.services {
+  padding: 0 4rem;
+}
+
+/* PERFORMANCE  */
+
+.performance_container {
+  padding-left: 5rem;
+}
+.performance_image {
+  width: 50vw;
+  height: auto;
+  background-image: url(../images/img_1.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.performance_image2 {
+  width: 50vw;
+  height: auto;
+  background-image: url(../images/img_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.performance {
+  padding: 10rem;
+}
+
+.performance h3 {
+  color: var(--accent);
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.performance p,
+.performance ul li {
+  color: gray;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.performance ul {
+  list-style: none;
+  margin-top: 3rem;
+}
+
+.performance ul li::before {
+  content: "\2713\0020";
+  color: var(--accent);
+  padding-right: 1rem;
+}
+
+/* OUR TEAM  */
+
+.team_title h3 {
+  font-size: 3rem;
+  color: var(--accent);
+  text-align: center;
+  margin: 8rem 0 2rem 0;
+}
+.team_title p {
+  width: 50%;
+  margin: 0 auto 4rem;
+  color: gray;
+  font-size: 24px;
+  text-align: center;
+}
+.team_cards {
+  background-color: #3f3e3e;
+  border-radius: 8px;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 450px;
+}
+.team_image {
+  width: 150px;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.jean {
+  background-image: url(../images/person_5.jpg);
+}
+
+.bob {
+  background-image: url(../images/person_2.jpg);
+}
+
+.ricky {
+  background-image: url(../images/person_1.jpg);
+}
+.team_cards h5 {
+  color: var(--accent);
+  font-size: 32px;
+  margin-top: 1rem;
+}
+.team_cards p {
+  color: gray;
+  font-size: 24px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.team_cards ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+.team_cards ul li {
+  padding: 0 0.5rem;
+}

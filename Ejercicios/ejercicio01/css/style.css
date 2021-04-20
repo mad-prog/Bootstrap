@@ -1,25 +1,28 @@
-.bg-red{
-background-color: red;
-height: 100%;
+body{
+    background-color: black;
 }
-.bg-green{
-    background-color: green;
-height: 100%;
+.bg-red {
+  background-color: red;
+  height: 100%;
 }
-.bg-blue{
-    background-color: blue;
+.bg-green {
+  background-color: green;
+  height: 100%;
 }
-.bg-white{
-    background-color: white;
+.bg-blue {
+  background-color: blue;
 }
-.one{
-    height: 150px;
+.bg-white {
+  background-color: white;
 }
-.two{
-   height: 24px;
+.one {
+  height: 150px;
 }
-.two .col p{
-    font-size: 8px;
+.two {
+  height: 24px;
+}
+.two .col p {
+  font-size: 8px;
 }
 /* .two:nth-child(odd){
     background: red;
@@ -30,66 +33,84 @@ height: 100%;
     height: 20px;
   } */
 
-  /* THREE  */
-  .three{
-      height: 100px;
-      background-color: black;
-  }
-
-  .brd-blue{
-      border: 3px solid blue;
-  }
-  .brd-yellow{
-      border: 3px double yellow;
-  }
-  .brd-red{
-      border: 3px dotted red;
-  }
-  .brd-white{
-      border: 3px groove white;
-  }
-
-  /* FOUR  */
-  .four{
-      height: 100px;
-  }
- 
-  /* FIVE  */
-  .five{
-      height: 100px;
-  }
-  .five .first{
-      background:linear-gradient(green,red,white);
-  }
-  .five .second{
-      background: linear-gradient(to top left, blue, purple, red);
-  }
-  .five .third{
-      background: linear-gradient(to bottom left, green, yellow);
-  }
-
-  /* SIX  */
-
- 
-  .six .first{
-      background-color: blue;
-      border: 3px double yellow;
-  }
-  .six .second{
-      background-color: green;
-  }
-.seven{
-    height: 100px;
+/* THREE  */
+.three {
+  height: 100px;
+  background-color: black;
 }
-  .seven .first{
-      background-color: brown;
+
+.brd-blue {
+  border: 3px solid blue;
+}
+.brd-yellow {
+  border: 3px double yellow;
+}
+.brd-red {
+  border: 3px dotted red;
+}
+.brd-white {
+  border: 3px groove white;
+}
+
+/* FOUR  */
+.four {
+  height: 100px;
+}
+
+/* FIVE  */
+.five {
+  height: 100px;
+}
+.five .first {
+  background: linear-gradient(green, red, white);
+}
+.five .second {
+  background: linear-gradient(to top left, blue, purple, red);
+}
+.five .third {
+  background: linear-gradient(to bottom left, green, yellow);
+}
+
+/* SIX  */
+.six .first .card img{
+    width: 60px;
+}
+.six .first .card{
+    width: 50%;
+    height: 90%;
+}
+.six .first {
+  background-color: blue;
+  border: 3px double yellow;
+}
+.six .second {
+  background-color: green;
+}
+.seven {
+  height: 100px;
+}
+.seven .first {
+  background-color: brown;
+}
+.seven .second {
+  background-color: darkblue;
+}
+.seven .third {
+  background-color: green;
+}
+.seven .fourth {
+  background-color: purple;
+}
+
+.nine {
+    height: 100px;
   }
-  .seven .second{
-      background-color: darkblue;
+  .nine .first, .nine .fourth {
+    background: linear-gradient(green, red, white);
   }
-  .seven .third{
-      background-color: green;
+  .nine .second {
+    background: linear-gradient(to top left, blue, purple, red);
   }
-  .seven .fourth{
-      background-color: purple;
+  .nine .third {
+    background: linear-gradient(to bottom left, green, yellow);
   }
