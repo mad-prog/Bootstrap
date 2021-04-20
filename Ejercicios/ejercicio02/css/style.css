@@ -1,0 +1,24 @@
+.bgBlue,
+.bgRed {
+  height: 24px;
+  margin: 4px 0;
+  border: 1px solid black;
+}
+
+.bgBlue {
+  background-color: blue;
+}
+
+.bgRed {
+  background-color: red;
+}
+.bgBlueDiff {
+    background-color: blue;
+    height: 12px;
+  }
+  
+  .bgRedDiff {
+    background-color: red;
+    height: 12px;
+    border: 1px solid black;
+  }

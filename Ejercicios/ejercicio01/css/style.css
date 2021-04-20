@@ -1,0 +1,95 @@
+.bg-red{
+background-color: red;
+height: 100%;
+}
+.bg-green{
+    background-color: green;
+height: 100%;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-white{
+    background-color: white;
+}
+.one{
+    height: 150px;
+}
+.two{
+   height: 24px;
+}
+.two .col p{
+    font-size: 8px;
+}
+/* .two:nth-child(odd){
+    background: red;
+    height: 20px;
+  }
+  .two:nth-child(even){
+    background: green;
+    height: 20px;
+  } */
+
+  /* THREE  */
+  .three{
+      height: 100px;
+      background-color: black;
+  }
+
+  .brd-blue{
+      border: 3px solid blue;
+  }
+  .brd-yellow{
+      border: 3px double yellow;
+  }
+  .brd-red{
+      border: 3px dotted red;
+  }
+  .brd-white{
+      border: 3px groove white;
+  }
+
+  /* FOUR  */
+  .four{
+      height: 100px;
+  }
+ 
+  /* FIVE  */
+  .five{
+      height: 100px;
+  }
+  .five .first{
+      background:linear-gradient(green,red,white);
+  }
+  .five .second{
+      background: linear-gradient(to top left, blue, purple, red);
+  }
+  .five .third{
+      background: linear-gradient(to bottom left, green, yellow);
+  }
+
+  /* SIX  */
+
+ 
+  .six .first{
+      background-color: blue;
+      border: 3px double yellow;
+  }
+  .six .second{
+      background-color: green;
+  }
+.seven{
+    height: 100px;
+}
+  .seven .first{
+      background-color: brown;
+  }
+  .seven .second{
+      background-color: darkblue;
+  }
+  .seven .third{
+      background-color: green;
+  }
+  .seven .fourth{
+      background-color: purple;
+  }
