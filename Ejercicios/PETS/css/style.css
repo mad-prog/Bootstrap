@@ -2,6 +2,10 @@
   padding: 40px 0;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 nav {
   background-color: #082b49;
 }
@@ -111,4 +115,99 @@ nav .linksNav li a {
   border-radius: 20px;
   background-color: #53c9bb;
   border-color: #53c9bb;
+}
+
+.cuddles {
+  background-image: url(../images/review_bg.png);
+  height: 30vh;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.vet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  height: 80vh;
+}
+.vet img {
+  width: 70%;
+  justify-self: end;
+}
+
+.fCenter2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-content: start;
+}
+.fCenter2 .textcare {
+  width: 80%;
+}
+.fCenter2 .textcare img {
+  width: 15%;
+}
+.fCenter2 .textcare h2 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.fCenter2 button {
+  border-radius: 20px;
+  background-color: #53c9bb;
+  border-color: #53c9bb;
+  align-self: flex-start;
+}
+
+.subscribe {
+  background-image: url(../images/footer_bg.png);
+  height: 90hv;
+  color: white;
+}
+.subscribe .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4rem;
+}
+.subscribe .row h3 {
+  font-weight: 300;
+  padding-bottom: 0.8rem;
+}
+.subscribe .row p {
+  padding-bottom: 2rem;
+}
+.subscribe .row .input-group {
+  width: 40%;
+}
+.subscribe .menu_table {
+  padding: 10rem 0 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.subscribe .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.subscribe .menu h4 {
+  font-weight: 300;
+}
+.subscribe .menu ul {
+  list-style: none;
+}
+.subscribe .menu ul li {
+  padding: 0.5rem 0;
+}
+.subscribe .menu ul li a {
+  color: white;
 }

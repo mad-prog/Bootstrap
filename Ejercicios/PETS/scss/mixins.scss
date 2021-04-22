@@ -3,3 +3,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@mixin buttonAccent{
+    border-radius: 20px;
+    background-color: #53c9bb;
+    border-color: #53c9bb;
+}
