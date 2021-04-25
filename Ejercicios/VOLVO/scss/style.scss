@@ -3,6 +3,7 @@
 
 body {
   font-family: $fontSans;
+  background-color: #748284;
 }
 
 // HERO
@@ -69,7 +70,7 @@ body {
 
   .card_car_row1 .col-12 {
     height: 140px;
-  
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,35 +87,115 @@ body {
       margin-bottom: 5rem;
       width: 40%;
       text-align: center;
-      
     }
   }
-  .card_car_row2{
+  .card_car_row2 {
     padding: 5rem 5rem 7rem;
-
   }
   .card_car_row2 .col-4 {
-      width: 300px;
+    width: 300px;
     display: flex;
     flex-direction: column;
 
-
-      align-items: center;
-      justify-content: center;
-      padding: 1rem;
-      img {
-          width: 90px;
-          height: auto;
-          filter: invert(1);
-          justify-self: end;
-      }
-      p{
-          margin-top: 20px;
-          font-size: 20px;
-          width: 80%;
-          text-align: center;
-      }
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    img {
+      width: 90px;
+      height: auto;
+      filter: invert(1);
+      justify-self: end;
     }
-  
+    p {
+      margin-top: 20px;
+      font-size: 20px;
+      width: 80%;
+      text-align: center;
+    }
+  }
 }
 
+// SERVICIO DE COCHE
+
+.servicio_coche_div {
+  height: 70vh;
+}
+.servicio_coche {
+  color: white;
+  background-color: #1c2122;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 2rem;
+  h4 {
+    width: 50%;
+    font-size: 30px;
+    font-family: $fontAccent;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  p {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 1.5rem;
+  }
+  button {
+    padding: 10px 30px;
+    border-radius: unset;
+    border: 2px solid white;
+  }
+}
+.servicio_coche_img {
+  background-image: url(https://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/b9df833743ec511aaf30c26e/pexelsphoto3874342.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+// CAMBIO DE FILTRO
+
+.change_tyre {
+  height: 75vh;
+  background-image: url(https://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/bc48a0cb914d58289d18e4d9/pexelsphoto3806275.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cambio_aire {
+ 
+  margin-top: -20%;
+  display: flex;
+  flex-direction: row;
+  .col-4 {
+      padding: 30px;
+    h3 {
+      font-family: $fontAccent;
+      font-size: 30px;
+      margin-top: 36px;
+      text-align: center;
+    }
+    p {
+        margin-top: 20px;
+      text-align: center;
+    }
+  }
+  .aire {
+    background-color: #1c2122;
+    color: white;
+  }
+  .bateria {
+    background-color: white;
+    color: #111111;
+  }
+  .photo_change{
+      height: 445px;
+      overflow: hidden;
+      box-shadow: 5px 5px 36px 0 rgb(0 0 0 / 55%);
+      padding: unset;
+      object-fit: contain;
+  }
+}

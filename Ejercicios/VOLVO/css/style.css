@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #748284;
 }
 
 .jumbotron {
@@ -97,4 +98,87 @@ body {
   font-size: 20px;
   width: 80%;
   text-align: center;
+}
+
+.servicio_coche_div {
+  height: 70vh;
+}
+
+.servicio_coche {
+  color: white;
+  background-color: #1c2122;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 2rem;
+}
+.servicio_coche h4 {
+  width: 50%;
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.servicio_coche p {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 1.5rem;
+}
+.servicio_coche button {
+  padding: 10px 30px;
+  border-radius: unset;
+  border: 2px solid white;
+}
+
+.servicio_coche_img {
+  background-image: url(https://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/b9df833743ec511aaf30c26e/pexelsphoto3874342.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.change_tyre {
+  height: 75vh;
+  background-image: url(https://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/bc48a0cb914d58289d18e4d9/pexelsphoto3806275.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cambio_aire {
+  margin-top: -20%;
+  display: flex;
+  flex-direction: row;
+}
+.cambio_aire .col-4 {
+  padding: 30px;
+}
+.cambio_aire .col-4 h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  margin-top: 36px;
+  text-align: center;
+}
+.cambio_aire .col-4 p {
+  margin-top: 20px;
+  text-align: center;
+}
+.cambio_aire .aire {
+  background-color: #1c2122;
+  color: white;
+}
+.cambio_aire .bateria {
+  background-color: white;
+  color: #111111;
+}
+.cambio_aire .photo_change {
+  height: 445px;
+  overflow: hidden;
+  box-shadow: 5px 5px 36px 0 rgba(0, 0, 0, 0.55);
+  padding: unset;
+  object-fit: contain;
 }
