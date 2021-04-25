@@ -1,8 +1,120 @@
-.hero {
-    color: white;
-    height: 100%;
-    background-image: url(https://images01.nicepage.io/7d/49/7d49b53f35a91fd08931b8dfa9ae7ac9.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+@import "./variables";
+@import "./mixins.scss";
+
+body {
+  font-family: $fontSans;
 }
+
+// HERO
+
+.jumbotron {
+  color: white;
+  height: 100vh;
+  background-image: url(https://images01.nicepage.io/7d/49/7d49b53f35a91fd08931b8dfa9ae7ac9.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: unset;
+  h1 {
+    font-family: $fontAccent;
+    font-size: 128px;
+    margin-top: 70px;
+  }
+  p {
+    font-weight: 400;
+  }
+}
+
+// PRODUCT INFO SEGURO
+
+.seguro {
+  color: white;
+  height: 70vh;
+  // background-image: url(https://images01.nicepage.io/71/7d/717db336de0fc087cdf0586a02d25594.png);
+  background-image: linear-gradient(#1c2122, #748284);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    padding: 20px;
+  }
+  .seguro_text {
+    width: 320px;
+    padding: 20px;
+    h2 {
+      text-align: end;
+      font-family: $fontAccent;
+      font-weight: 600;
+    }
+    p {
+      text-align: end;
+      margin: 37px 0 0 20px;
+    }
+  }
+}
+
+// COMO FUNCIONA
+
+.function_card_section {
+  color: white;
+  background-color: #748284;
+
+  .card_car_row1 .col-12 {
+    height: 140px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      font-family: $fontAccent;
+      font-size: 36px;
+      font-weight: 700;
+      margin-top: 50px;
+    }
+    p {
+      margin-top: 20px;
+      margin-bottom: 5rem;
+      width: 40%;
+      text-align: center;
+      
+    }
+  }
+  .card_car_row2{
+    padding: 5rem 5rem 7rem;
+
+  }
+  .card_car_row2 .col-4 {
+      width: 300px;
+    display: flex;
+    flex-direction: column;
+
+
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      img {
+          width: 90px;
+          height: auto;
+          filter: invert(1);
+          justify-self: end;
+      }
+      p{
+          margin-top: 20px;
+          font-size: 20px;
+          width: 80%;
+          text-align: center;
+      }
+    }
+  
+}
+
