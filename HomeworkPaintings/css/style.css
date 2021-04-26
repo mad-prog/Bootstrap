@@ -38,6 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .hero .card .card-body h3 {
   text-align: center;
@@ -63,6 +64,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .shadow_row .card-body h3 {
   font-weight: 900;
