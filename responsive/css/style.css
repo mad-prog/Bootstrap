@@ -1,0 +1,92 @@
+body {
+  color: white;
+}
+.bg-nav{
+    
+    background-color: #242943;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.bg-nav a, button{
+  
+    color: white !important;
+}
+.navbar-toggler-icon{
+    filter: invert(1);
+}
+.bg-darkblue {
+  background-color: #242943;
+  height: 50vh;
+  padding: 7% 5%;
+
+}
+.pad7{
+    padding: 7% 5%;
+}
+
+h2 {
+  border-bottom: 2px solid white;
+  width: 80%;
+  
+}
+.bg-darkblue {
+  background-color: #242943;
+  height: 50vh;
+
+}
+.bg-aqua {
+  background-color: #6fc3df;
+  height: 30vh;
+
+}
+.bg-lilac {
+  background-color: #8d82c4;
+  height: 30vh;
+
+}
+.bg-peach {
+  background-color: #ec8d81;
+  height: 30vh;
+ 
+}
+.bg-mustard {
+  background-color: #e7b788;
+  height: 30vh;
+
+}
+.bg-flowerblue {
+  background-color: #8ea9e8;
+  height: 30vh;
+
+}
+.bg-lightgreen {
+  background-color: #87c5a4;
+  height: 30vh;
+
+}
+
+/* FOOTER  */
+
+.form-group {
+  color: white;
+  background-color: #242943;
+  width: 100%;
+}
+.form-group textarea {
+  width: 100%;
+}
+.contacts_panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.contact {
+  border: 0 0 1px 1px solid white;
+}
+.material-icons {
+  color: black;
+  font-size: 45px;
+
+}
