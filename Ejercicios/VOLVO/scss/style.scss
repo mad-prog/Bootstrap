@@ -115,7 +115,7 @@ body {
   }
 }
 
-// SERVICIO DE COCHE
+// PROPORCIONAMOS
 
 .servicio_coche_div {
   height: 70vh;
@@ -127,7 +127,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 4rem;
+  padding-left: 20%;
   padding-right: 2rem;
   h4 {
     width: 50%;
@@ -167,9 +167,12 @@ body {
 }
 .cambio_aire {
  
-  margin-top: -20%;
+  margin-top: -10%;
+  margin-bottom: 10%;
+  height: 30vh;
   display: flex;
   flex-direction: row;
+  position: relative;
   .col-4 {
       padding: 30px;
     h3 {
@@ -192,10 +195,80 @@ body {
     color: #111111;
   }
   .photo_change{
-      height: 445px;
-      overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+      height: 50vh;
+     overflow: hidden;
       box-shadow: 5px 5px 36px 0 rgb(0 0 0 / 55%);
       padding: unset;
-      object-fit: contain;
+      object-fit: scale-down;
+      img{
+        object-fit: contain;
+       
+      }
   }
+}
+
+// SERVICIO DE COCHE 
+
+.mechanic_service_row{
+  height: 50vh;
+  .mechanic_service  {
+    
+   .card {
+    width: 100%;
+    background-color: #1c2122;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+    
+ img {
+      width: 75px;
+      height: auto;
+      filter: invert(1);
+      
+    }
+    .card-body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   
+    h5 {
+      font-family: $fontAccent;
+      font-size: 36px;
+      margin-top: 22px;
+    }
+    p{
+      font-size: 18px;
+      margin-top: 22px;
+      text-align: center;
+    }
+    .btn{
+      padding: 10px 30px;
+      margin-top: 30px;
+      border-radius:unset;
+      font-weight: unset;
+      font-weight: 500;
+    }
+  }
+  }
+}
+
+  .col-7 {
+    background-color:pink;
+  
+img{
+  height: 50vh;
+    
+    object-fit: contain;
+   
+  }
+
+  }
+   
 }

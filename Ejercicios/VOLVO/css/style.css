@@ -111,7 +111,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-left: 4rem;
+  padding-left: 20%;
   padding-right: 2rem;
 }
 .servicio_coche h4 {
@@ -150,9 +150,12 @@ body {
 }
 
 .cambio_aire {
-  margin-top: -20%;
+  margin-top: -10%;
+  margin-bottom: 10%;
+  height: 30vh;
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 .cambio_aire .col-4 {
   padding: 30px;
@@ -176,9 +179,64 @@ body {
   color: #111111;
 }
 .cambio_aire .photo_change {
-  height: 445px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50vh;
   overflow: hidden;
   box-shadow: 5px 5px 36px 0 rgba(0, 0, 0, 0.55);
   padding: unset;
+  object-fit: scale-down;
+}
+.cambio_aire .photo_change img {
+  object-fit: contain;
+}
+
+.mechanic_service_row {
+  height: 50vh;
+}
+.mechanic_service_row .mechanic_service .card {
+  width: 100%;
+  background-color: #1c2122;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 50px;
+}
+.mechanic_service_row .mechanic_service .card img {
+  width: 75px;
+  height: auto;
+  filter: invert(1);
+}
+.mechanic_service_row .mechanic_service .card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mechanic_service_row .mechanic_service .card .card-body h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 36px;
+  margin-top: 22px;
+}
+.mechanic_service_row .mechanic_service .card .card-body p {
+  font-size: 18px;
+  margin-top: 22px;
+  text-align: center;
+}
+.mechanic_service_row .mechanic_service .card .card-body .btn {
+  padding: 10px 30px;
+  margin-top: 30px;
+  border-radius: unset;
+  font-weight: unset;
+  font-weight: 500;
+}
+.mechanic_service_row .col-7 {
+  background-color: pink;
+}
+.mechanic_service_row .col-7 img {
+  height: 50vh;
   object-fit: contain;
 }
