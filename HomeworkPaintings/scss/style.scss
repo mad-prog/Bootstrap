@@ -1,0 +1,159 @@
+@import "./variables";
+@import "./mixins";
+
+// NAV BAR AND TITLE
+
+.title_dotetrope {
+  text-align: center;
+  h2 {
+    font-weight: 900;
+    margin-top: 5%;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  nav {
+    background-color: $bgColor;
+  }
+  .btn-danger {
+    color: $bgColor !important;
+    border-radius: 4px;
+  }
+}
+
+// HERO
+
+.hero {
+  height: 70vh;
+  background-image: url(../img/pic01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 130%, cover;
+  @include flex;
+  margin-bottom: 5rem;
+  .card {
+    img {
+      width: 15vh;
+    }
+    .card-body {
+      background-color: #343a40;
+      @include flex;
+      h3 {
+        text-align: center;
+        margin-top: 1rem;
+        font-weight: 700;
+      }
+      p {
+        color: red;
+        text-align: center;
+      }
+    }
+  }
+}
+
+// SHADOW BOX
+
+.shadow_row {
+  padding: 2rem;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  border: none;
+  img {
+    width: 30%;
+  }
+  .card-body {
+    @include flex;
+    h3 {
+      font-weight: 900;
+    }
+    p {
+      max-width: 100%;
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+}
+.shadow_middle {
+  z-index: 1;
+  box-shadow: 1px 1px 10px 4px #232323;
+}
+
+// MY PORTFOLIO
+
+.portfolio_start {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f7f7f7;
+  margin-top: 5rem;
+}
+.portfolio_row {
+  margin-top: 5rem;
+  @include flex;
+}
+
+// THE BLOG
+
+.blog_title h2 {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 3rem;
+}
+.blog_card {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  h5 {
+    font-weight: 700;
+    padding: 4rem 0;
+  }
+  p {
+    color: grey;
+  }
+  .btn_panel {
+    margin: 5rem 0;
+  }
+}
+
+// FOOTER
+
+.footer {
+  background-color: black;
+  .footer_info {
+    @include flex;
+    .card {
+      width: 100%;
+      color: $bgColor;
+      background-color: black;
+      border: none;
+      @include flex;
+      h5 {
+        padding: 4rem 0;
+      }
+      a {
+        margin: 3rem 0 5rem 0;
+      }
+    }
+  }
+}
+
+.footer_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 7rem 0;
+  h5 {
+    color: $bgColor;
+    font-size: 24px;
+    text-align: center;
+  }
+  ul {
+    align-self: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+}

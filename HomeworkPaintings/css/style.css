@@ -1,0 +1,157 @@
+.title_dotetrope {
+  text-align: center;
+}
+.title_dotetrope h2 {
+  font-weight: 900;
+  margin-top: 5%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.navbar nav {
+  background-color: white;
+}
+.navbar .btn-danger {
+  color: white !important;
+  border-radius: 4px;
+}
+
+.hero {
+  height: 70vh;
+  background-image: url(../img/pic01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 130%, cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.hero .card img {
+  width: 15vh;
+}
+.hero .card .card-body {
+  background-color: #343a40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .card .card-body h3 {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 700;
+}
+.hero .card .card-body p {
+  color: red;
+  text-align: center;
+}
+
+.shadow_row {
+  padding: 2rem;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.shadow_row img {
+  width: 30%;
+}
+.shadow_row .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shadow_row .card-body h3 {
+  font-weight: 900;
+}
+.shadow_row .card-body p {
+  max-width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.shadow_middle {
+  z-index: 1;
+  box-shadow: 1px 1px 10px 4px #232323;
+}
+
+.portfolio_start {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f7f7f7;
+  margin-top: 5rem;
+}
+
+.portfolio_row {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog_title h2 {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.blog_card {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.blog_card h5 {
+  font-weight: 700;
+  padding: 4rem 0;
+}
+.blog_card p {
+  color: grey;
+}
+.blog_card .btn_panel {
+  margin: 5rem 0;
+}
+
+.footer {
+  background-color: black;
+}
+.footer .footer_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer_info .card {
+  width: 100%;
+  color: white;
+  background-color: black;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer_info .card h5 {
+  padding: 4rem 0;
+}
+.footer .footer_info .card a {
+  margin: 3rem 0 5rem 0;
+}
+
+.footer_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 7rem 0;
+}
+.footer_links h5 {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+.footer_links ul {
+  align-self: center;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
