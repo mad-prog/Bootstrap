@@ -166,23 +166,22 @@ body {
   background-repeat: no-repeat;
 }
 .cambio_aire {
- 
   margin-top: -10%;
   margin-bottom: 10%;
-  height: 30vh;
+  height: 40vh;
   display: flex;
   flex-direction: row;
   position: relative;
   .col-4 {
-      padding: 30px;
+    padding: 30px;
     h3 {
       font-family: $fontAccent;
       font-size: 30px;
-      margin-top: 36px;
+      margin-top: 6px;
       text-align: center;
     }
     p {
-        margin-top: 20px;
+      margin-top: 20px;
       text-align: center;
     }
   }
@@ -194,81 +193,99 @@ body {
     background-color: white;
     color: #111111;
   }
-  .photo_change{
+  .photo_change {
     position: absolute;
     bottom: 0;
     right: 0;
-      height: 50vh;
-     overflow: hidden;
-      box-shadow: 5px 5px 36px 0 rgb(0 0 0 / 55%);
-      padding: unset;
-      object-fit: scale-down;
-      img{
-        object-fit: contain;
-       
-      }
+    height: 60vh;
+    background-image: url(https://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/fd12b1fdd8b25bdfb3eee767/pexelsphoto3806288.jpeg);
+    background-position: center;
+    background-size: cover;
+
+    overflow: hidden;
+    box-shadow: 5px 5px 36px 0 rgb(0 0 0 / 55%);
+    padding: unset;
+    object-fit: scale-down;
+    img {
+      object-fit: contain;
+    }
   }
 }
 
-// SERVICIO DE COCHE 
+// SERVICIO DE COCHE
 
-.mechanic_service_row{
+.mechanic_service_row {
   height: 50vh;
-  .mechanic_service  {
-    
-   .card {
-    width: 100%;
-    background-color: #1c2122;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 50px;
-    
- img {
-      width: 75px;
-      height: auto;
-      filter: invert(1);
-      
-    }
-    .card-body{
+  margin-bottom: 10rem;
+  .mechanic_service {
+    .card {
+      width: 100%;
+      background-color: #1c2122;
+      color: white;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-   
-    h5 {
-      font-family: $fontAccent;
-      font-size: 36px;
-      margin-top: 22px;
-    }
-    p{
-      font-size: 18px;
-      margin-top: 22px;
-      text-align: center;
-    }
-    .btn{
-      padding: 10px 30px;
-      margin-top: 30px;
-      border-radius:unset;
-      font-weight: unset;
-      font-weight: 500;
+      padding: 50px 50px;
+
+      img {
+        width: 75px;
+
+        filter: invert(1);
+      }
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h5 {
+          font-family: $fontAccent;
+          font-size: 36px;
+          margin-top: 22px;
+        }
+        p {
+          font-size: 18px;
+          margin-top: 22px;
+          text-align: center;
+        }
+        .btn {
+          padding: 10px 30px;
+          margin-top: 30px;
+          border-radius: unset;
+          font-weight: unset;
+          font-weight: 500;
+        }
+      }
     }
   }
+
+  .mechanic_img {
+    background-image: url(https://images03.nicepage.io/c461c07a441a5d220e8feb1a/7d6eecc973ab56b5890a68f5/dsfdfmin.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
   }
 }
 
-  .col-7 {
-    background-color:pink;
-  
-img{
-  height: 50vh;
-    
-    object-fit: contain;
-   
-  }
+// TABLE OF LISTS 
 
+.table_list{
+  background-image: linear-gradient(#1c2122, #748284);
+  
+  
+  display: flex;
+  justify-content: space-evenly;
+
+  .col-4{
+  display: flex;
+  justify-content: center;
+  .card{
+    background-color: transparent;
+    color: white;
+    border: none;
+    
   }
-   
+}
 }
