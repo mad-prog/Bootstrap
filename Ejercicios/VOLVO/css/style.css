@@ -258,3 +258,9 @@ body {
   color: white;
   border: none;
 }
+.table_list .carJRight {
+  justify-content: flex-end;
+}
+.table_list .carJLeft {
+  justify-content: flex-start;
+}
