@@ -196,8 +196,7 @@ body {
 }
 
 .mechanic_service_row {
-  height: 50vh;
-  margin-bottom: 10rem;
+  height: 100%;
 }
 .mechanic_service_row .mechanic_service .card {
   width: 100%;
@@ -208,6 +207,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 50px 50px;
+  border-radius: unset;
 }
 .mechanic_service_row .mechanic_service .card img {
   width: 75px;
@@ -240,27 +240,54 @@ body {
   background-image: url(https://images03.nicepage.io/c461c07a441a5d220e8feb1a/7d6eecc973ab56b5890a68f5/dsfdfmin.jpg);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   overflow: hidden;
 }
 
 .table_list {
   background-image: linear-gradient(#1c2122, #748284);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  height: 100%;
+  padding: 5% 20% 5% 10%;
 }
 .table_list .col-4 {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .table_list .col-4 .card {
   background-color: transparent;
   color: white;
   border: none;
 }
-.table_list .carJRight {
+.table_list .col-4 .card li {
+  font-size: 18px;
+}
+.table_list .col-4 .carJRight {
   justify-content: flex-end;
 }
-.table_list .carJLeft {
+.table_list .col-4 .carJLeft {
   justify-content: flex-start;
+}
+
+.dark-background {
+  background-color: #1c2122;
+  padding: 0 10%;
+}
+.dark-background .black-car {
+  height: 40vh;
+  background-image: url(https://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/b45b5094672c5cb3919a7f66/lamborghinicarspeedprestige38570.jpeg);
+  background-position: center;
+  background-size: contain;
+}
+.dark-background .whitetxt {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: end;
+}
+.dark-background .whitetxt h2 {
+  font-weight: 700;
+  font-size: 40px;
+  padding-right: 2rem;
 }
