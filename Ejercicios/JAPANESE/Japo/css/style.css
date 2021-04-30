@@ -5,6 +5,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
+  cursor: url("https://www.zingerbug.com/cursors/cursors/Purple_Butterfly_animated_cursor.gif"), pointer;
 }
 
 header {
@@ -140,6 +141,7 @@ header .col-12 p {
 }
 .bgForm .bg-light {
   padding: 2rem;
+  border-right: 1px solid #ebedf0;
 }
 .bgForm .form-group label {
   font-weight: 700;
@@ -168,6 +170,7 @@ header .col-12 p {
   list-style: none;
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
 }
 .bgForm ul li {
   padding: 0 10px;
@@ -181,6 +184,30 @@ header .col-12 p {
 }
 .bgForm .contact_bold {
   background-color: #f8f9fa;
+}
+.bgForm .row.form-border {
+  height: 25%;
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ebedf0;
+}
+.bgForm .row.form-border .left {
+  padding-left: 12%;
+  font-weight: 700;
+  color: #7b868d;
+}
+.bgForm .row.form-border .right {
+  color: #adb4b8;
+}
+.bgForm .row.form-border .right span {
+  border-bottom: 1px dotted #adb4b8;
+}
+
+.footer-note {
+  text-align: center;
+  padding: 5% 0;
+  font-weight: 700;
 }
 
 @media (max-width: 600px) {
