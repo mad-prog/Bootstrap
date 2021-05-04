@@ -15,6 +15,7 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 0 64px;
 }
 header .col-12 {
   display: flex;
@@ -34,7 +35,8 @@ header .col-12 p {
   font-style: italic;
   font-family: ui-sans-serif;
   font-size: 22px;
-  padding-bottom: 4rem;
+  padding: 0 2% 64px;
+  text-align: center;
 }
 
 .bg-green {
@@ -42,7 +44,7 @@ header .col-12 p {
   background-color: #9ccbb9;
 }
 .bg-green .navbar-toggler {
-  border: 1px solid white;
+  border: 1px solid #fff;
 }
 .bg-green .navbar-toggler .navbar-toggler-icon {
   filter: invert(1);
@@ -55,7 +57,7 @@ header .col-12 p {
 .bg-green .nav-link img {
   width: 24px;
   filter: invert(1);
-  margin: 0 0.5rem;
+  margin: 0 8px;
 }
 
 .hero {
@@ -88,11 +90,11 @@ header .col-12 p {
 }
 .hero .btn {
   border-radius: unset;
-  padding: 10px 30px;
-  border: 2px solid black;
+  border: 2px solid #000;
   text-transform: uppercase;
   font-weight: 800;
-  margin: 2rem 0;
+  padding: 10px 30px;
+  margin: 32px 0;
 }
 
 .photo-grid {
@@ -129,10 +131,10 @@ header .col-12 p {
 }
 .photo-grid .card .btn {
   border-radius: unset;
-  padding: 7px 14px;
-  border: 2px solid black;
+  border: 2px solid #000;
   text-transform: uppercase;
   font-weight: 800;
+  padding: 7px 14px;
   font-size: 12px;
 }
 
@@ -140,7 +142,7 @@ header .col-12 p {
   background-color: #f8f9fa;
 }
 .bgForm .bg-light {
-  padding: 2rem;
+  padding: 32px;
   border-right: 1px solid #ebedf0;
 }
 .bgForm .form-group label {
@@ -187,9 +189,9 @@ header .col-12 p {
 }
 .bgForm .row.form-border {
   height: 25%;
-  padding: 4rem 0;
+  padding: 64px 0;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   border-top: 1px solid #ebedf0;
 }
 .bgForm .row.form-border .left {
@@ -203,6 +205,9 @@ header .col-12 p {
 .bgForm .row.form-border .right span {
   border-bottom: 1px dotted #adb4b8;
 }
+.bgForm .row.form-border .social_right {
+  padding-bottom: 20px !important;
+}
 
 .footer-note {
   text-align: center;
@@ -210,13 +215,20 @@ header .col-12 p {
   font-weight: 700;
 }
 
-@media (max-width: 600px) {
-  h2 {
-    font-size: 3rem !important;
+@media (max-width: 450px) {
+  header h1 {
+    font-size: 48px !important;
+  }
+  header p {
+    font-size: 16px !important;
   }
 }
-@media (max-width: 450px) {
-  h1 {
-    font-size: 3rem !important;
+@media (max-width: 770px) {
+  .hero h2 {
+    font-size: 48px !important;
+  }
+  .hero p {
+    font-size: 14px;
+    width: 70%;
   }
 }
