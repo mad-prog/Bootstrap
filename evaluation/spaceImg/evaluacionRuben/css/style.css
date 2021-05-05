@@ -1,0 +1,297 @@
+body {
+  padding: none;
+  font-family: "Roboto", sans-serif;
+}
+
+header .col-12 {
+  display: flex;
+  justify-content: flex-end;
+}
+header .navContainer {
+  width: 100%;
+}
+header .navbar {
+  z-index: 99 !important;
+}
+header .hero {
+  height: 100vh;
+  background-image: url(https://3.bp.blogspot.com/-Or24w3s6KXE/UmMkLjxV5hI/AAAAAAABHo8/b2jYEwPDQrI/s1600/wallpaper-28484.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .hero h1 {
+  color: #fff;
+  border: 12px solid #fff;
+  font-size: 6rem;
+  font-weight: 800;
+  padding: 1rem 2rem;
+  letter-spacing: 8px;
+}
+
+.collection_cardgrid {
+  padding-bottom: 2rem;
+}
+.collection_cardgrid .title_cardgrid {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.collection_cardgrid .title_cardgrid h2 {
+  padding: 3rem 0 1rem 0;
+}
+.collection_cardgrid .title_cardgrid h2 span {
+  color: #375c9f;
+}
+.collection_cardgrid .title_cardgrid p {
+  width: 50%;
+  text-align: center;
+}
+.collection_cardgrid .card {
+  width: 19rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  padding-top: 3rem;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  margin: 1rem;
+}
+.collection_cardgrid .card img {
+  width: 42px;
+}
+.collection_cardgrid .card h5 {
+  padding-top: 1.5rem;
+  font-weight: 500;
+}
+.collection_cardgrid .card p {
+  color: #8d9297;
+  height: 80px;
+}
+.collection_cardgrid .cardDown {
+  margin-top: 50px;
+}
+
+.space-wide-banner {
+  height: 80vh;
+  background-image: url(https://images-ext-2.discordapp.net/external/g0iPAzukqtgpUNUAJsulfuB_uc9vnRfpyyaVmR0B7Mg/%3Fu%3Dhttps%253A%252F%252Fpt.best-wallpaper.net%252Fwallpaper%252F1920x1080%252F1609%252FAstronaut-floating-in-space-planets-stars_1920x1080.jpg%26f%3D1%26nofb%3D1/https/external-content.duckduckgo.com/iu/?width=1191&height=670);
+  background-position: top left;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+.space-wide-banner .col-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+.space-wide-banner .col-12 .card {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+  border: unset;
+}
+.space-wide-banner .col-12 .card .col-8 {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.space-wide-banner .col-12 .card .col-8 h5 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.space-wide-banner .col-12 .card .col-8 p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.space-wide-banner .col-12 .card .col-8 .btn {
+  border-radius: 25px;
+  padding: 7px 20px;
+  font-weight: 500;
+}
+
+.secondSpaceman {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin: 5rem 0;
+}
+.secondSpaceman .col-12 {
+  display: flex;
+  justify-content: center;
+}
+.secondSpaceman .col-12 .card {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+  border: unset;
+}
+.secondSpaceman .col-12 .card .col-4 {
+  display: flex;
+  justify-content: flex-end;
+}
+.secondSpaceman .col-12 .card .col-8 {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.secondSpaceman .col-12 .card .col-8 h5 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.secondSpaceman .col-12 .card .col-8 p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.secondSpaceman .col-12 .card .col-8 .progress {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.secondSpaceman .col-12 .card .col-8 .progress .progress-bar {
+  background-color: #ff0fdf;
+}
+
+.our-pictures {
+  padding: 2rem 20rem;
+}
+.our-pictures .title_ourpictures {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.our-pictures .title_ourpictures h2 {
+  font-weight: 300;
+}
+.our-pictures .title_ourpictures h2 span {
+  font-weight: 900;
+}
+.our-pictures .title_ourpictures p {
+  width: 40%;
+}
+
+.space_card {
+  display: flex;
+  justify-content: center;
+}
+.space_card img {
+  margin: 1rem;
+}
+
+.work-with {
+  height: 50vh;
+  background-image: url(https://wallpapercave.com/wp/z9xbHsw.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10rem;
+}
+.work-with h2 {
+  color: #fff;
+  padding: 5%;
+}
+.work-with .moons img {
+  width: 80%;
+}
+
+.contacts {
+  margin: 4rem 0;
+  padding: 5rem 20rem;
+}
+.contacts form {
+  margin-left: 5%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 2rem 1rem 2rem;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+}
+.contacts form h3 {
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 1rem;
+}
+.contacts form input {
+  border: 1px solid #c5c2c25d;
+}
+.contacts form input ::placeholder {
+  color: #c5c2c25d;
+}
+.contacts .contacts_left {
+  display: flex;
+  justify-content: flex-end;
+}
+.contacts .contacts_left a {
+  background-color: #ff0fdf;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 30px;
+  box-shadow: rgba(231, 226, 181, 0.3) 0px -1px 29px 5px;
+  align-self: center;
+}
+
+.contacts_right {
+  width: 50%;
+  padding-left: 5%;
+}
+.contacts_right .icon-boxes {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.contacts_right .icon-boxes .icon-firstrow {
+  display: flex;
+}
+.contacts_right .icon-boxes .icon-box {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contacts_right .icon-boxes .icon-box img {
+  width: 50px;
+  align-self: center;
+}
+.contacts_right .icon-boxes .icon-box p {
+  white-space: nowrap;
+}
+.contacts_right .icon-boxes .purchase {
+  color: #ff0fdf;
+  font-weight: 700;
+  padding: 3rem 0;
+}
+.contacts_right .icon-boxes .purchase span {
+  font-size: 12px;
+}
+
+footer {
+  height: 20vh;
+  background-image: url(https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/img_1col/noticias/que-pasara-con-las-primeras-huellas-humanas-en-la-luna/8642407-1-esl-MX/Que-pasara-con-las-primeras-huellas-humanas-en-la-Luna.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 992px) {
+  .cardDown {
+    margin-top: unset !important;
+  }
+}

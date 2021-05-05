@@ -1,31 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Evaluation Ruben</title>
-    
+
     <!-- BOOTSTRAP LINK  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
 
     <!-- CSS LINK  -->
- <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
 
- <!-- GOOGLE FONTS  -->
+    <!-- GOOGLE FONTS  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- GOOGLE ICONS  -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER  -->
+    <header class="container-fluid">
+      <div class="row">
+        <div class="col-12 bg-transparent">
 
+          <!-- NAVBAR  -->
 
-</head>
-<body>
-   
-    
+          <nav
+            class="navbar navbar-expand-lg navbar-dark text-light position-absolute"
+          >
+            <div>
+              <a class="navbar-brand" href="#">POSEIDON</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <form class="form-inline my-2 my-lg-0">
+                <div
+                  class="collapse navbar-collapse form-inline my-2 my-lg-0"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#"
+                        >Home <span class="sr-only">(current)</span></a
+                      >
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#"
+                        ><span class="material-icons"> search </span></a
+                      >
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#"
+                        ><span class="navbar-toggler-icon"></span
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 hero">
+          <h1>POSEIDON</h1>
+        </div>
+      </div>
+    </header>
 
+    <!-- CARDS  -->
+    <div class="container collection_cardgrid">
+      <div class="row">
+        <div class="col-12 title_cardgrid">
+          <h2>A template built by <span>Codehouse Academy</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            culpa, aut natus omnis deleniti ea!
+          </p>
+        </div>
 
+        <div class="col-12 col-md-6 col-lg-4 photo-grid">
+          <div
+            class="card d-flex justify-content-center cardDown"
+            style="width: 18rem"
+          >
+            <img src="./img/settings.svg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-center">Easy to Customize</h5>
+              <p class="card-text text-center">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-12 col-md-6 col-lg-4 photo-grid p-0">
+          <div class="card d-flex justify-content-center" style="width: 18rem">
+            <img src="./img/speech-bubble.svg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-center">Full Support</h5>
+              <p class="card-text text-center">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
 
-<!-- BOOTSTRAP SCRIPTS  -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-</body>
+        <div class="col-12 col-md-6 col-lg-4 photo-grid p-0">
+          <div
+            class="card d-flex justify-content-center cardDown"
+            style="width: 18rem"
+          >
+            <img src="./img/alarm-clock.svg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-center">Ontime Project</h5>
+              <p class="card-text text-center">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 photo-grid p-0">
+          <div
+            class="card d-flex justify-content-center cardDown"
+            style="width: 18rem"
+          >
+            <img src="./img/close.svg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-center">Pixel Perfect</h5>
+              <p class="card-text text-center">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 photo-grid p-0">
+          <div class="card d-flex justify-content-center" style="width: 18rem">
+            <img src="./img/magic-wand.svg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-center">Clean Design</h5>
+              <p class="card-text text-center">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 photo-grid p-0 cardDown">
+          <div class="card d-flex justify-content-center" style="width: 18rem">
+            <img src="./img/like.svg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title text-center">Built with SASS</h5>
+              <p class="card-text text-center">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SPACE WIDE  -->
+    <div class="container-fluid space-wide-banner">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="col-8">
+              <h5 class="card-title">
+                Capture every moment and share it with all your friends
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorum, tempore architecto. Fugiat accusamus, sapiente magnam
+                magni, tenetur . Sit vero doloribus earum aliquid.
+              </p>
+              <button type="button" class="btn btn-outline-light">
+                FEATURES
+              </button>
+            </div>
+            <div class="col-4">
+              <img
+                src="https://i.pinimg.com/564x/6b/13/1e/6b131e2a48539e85566f6e3a98c8b8ea.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECOND SPACEMAN  -->
+
+    <div class="container-fluid secondSpaceman">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="col-4">
+              <img
+                src="https://i.pinimg.com/564x/6b/13/1e/6b131e2a48539e85566f6e3a98c8b8ea.jpg"
+                alt=""
+              />
+            </div>
+            <div class="col-8">
+              <h5 class="card-title">
+                Capture every moment and share it with all your friends
+              </h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolorum, tempore architecto. Fugiat accusamus, sapiente magnam
+                magni, tenetur . Sit vero doloribus earum aliquid.
+              </p>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 95%"
+                  aria-valuenow="95"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  HTML5 95%
+                </div>
+              </div>
+              <div class="progress">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="90"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  CSS3 90%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- OUR PICTURES  -->
+
+    <div class="container-fluid our-pictures">
+      <div class="row">
+        <div class="col-12 title_ourpictures">
+          <h2>Our <span>Pictures</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            culpa, aut natus omnis deleniti ea!
+          </p>
+        </div>
+        <div class="col-12 col-sm-5 col-md-4 space_card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs0IOtjSD3_DhW8g6epsmThm7BLYshFk0xfAY9CbVf1kPC1_N6N45Rnn_nKiaj5VMHITs&usqp=CAU"
+            alt=""
+          />
+        </div>
+        <div class="col-12 col-sm-5 col-md-4 space_card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFuqbXQIrVS0ipiR8HVvCWP2NxuC-xuoc-A-eiri69uzoVdR7LOyo4WMDL2foJTr6nuLg&usqp=CAU"
+            alt=""
+          />
+        </div>
+        <div class="col-12 col-sm-5 col-md-4 space_card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6X-2jQyust7E1mSBNW04_WP6Dd2CQaKhvEgDGRxlYV4bspSl2XDRNHggyLDJ7DlJ1I20&usqp=CAU"
+            alt=""
+          />
+        </div>
+        <div class="col-12 col-sm-5 col-md-4 space_card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsAAFUFs_AjY6VDUsSgdiJs_yPkSVwq6VhX3oGSu02teo1-lBHgZDf52U-uL4TrWHW_IE&usqp=CAU"
+            alt=""
+          />
+        </div>
+        <div class="col-12 col-sm-5 col-md-4 space_card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzKNNvlyzmHl96j5xnnAfjqoEYTEncajdFfB9BO4JzlnZnlvOntWXgClEUIAyMeniq43w&usqp=CAU"
+            alt=""
+          />
+        </div>
+        <div class="col-12 col-sm-5 col-md-4 space_card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhlXTa8_e9TyeO2CV04X041Xy8Mdm3c-IPvyplI3q8WXFbILn6LtQEwTb5R7we-YuJnhU&usqp=CAU"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- WORK WITH US  -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 work-with">
+          <h2>Who love to work with us</h2>
+          <div class="container moon_container">
+            <div class="row">
+              <div class="col-2 moons"><img src="./img/moon.png" alt="" /></div>
+              <div class="col-2 moons"><img src="./img/moon.png" alt="" /></div>
+              <div class="col-2 moons"><img src="./img/moon.png" alt="" /></div>
+              <div class="col-2 moons"><img src="./img/moon.png" alt="" /></div>
+              <div class="col-2 moons"><img src="./img/moon.png" alt="" /></div>
+              <div class="col-2 moons"><img src="./img/moon.png" alt="" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONACTS  -->
+    <div class="container-fluid contacts">
+      <div class="row">
+        <div class="col-12 col-md-6 contacts_left">
+            
+          <form><h3>Contact Us</h3>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput2"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="tel"
+                class="form-control"
+                id="exampleFormControlInput3"
+                placeholder="Phone"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="url"
+                class="form-control"
+                id="exampleFormControlInput4"
+                placeholder="Website"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="5"
+                placeholder="Your Message ..."
+              ></textarea>
+            </div>
+            <a href="#">Send Message</a>
+          </form>
+        </div>
+        <div class="col-12 col-md-6 contacts_right">
+          <h3>Best solution to create any website. <br />Pay once.</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa,
+            soluta amet similique impedit ipsum doloremque nostrum at minus.
+            Non, rerum!
+          </p>
+          <div class="icon-boxes">
+            <div class="icon-firstrow">
+              <div class="icon-box">
+                <img src="./img/startup.svg" alt="" />
+                <p>Fast delivery</p>
+              </div>
+              <div class="icon-box">
+                <img src="./img/magic-wand.svg" alt="" />
+                <p>Awesome design</p>
+              </div>
+            </div>
+            <div class="icon-box">
+              <img src="./img/settings.svg" alt="" />
+              <p>Easy to customize</p>
+            </div>
+            <a class="purchase" href="#"
+              >PURCHASE NOW <span class="material-icons"> east </span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-12"></div>
+        </div>
+    </footer>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+      integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
